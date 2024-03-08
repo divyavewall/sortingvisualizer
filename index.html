@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+             <h1>Sorting Visualizer</h1>
+             <div class="algos">
+                <button>Bubble</button>
+                <button>Insertion</button>
+                <button>Selection</button>
+                <button>Merge</button>
+                <button>Quick</button>
+             </div>
+        </div>
+        <div class="controls">
+            <label for="array-size">Size of Array: </label>
+            <input id="array-size" type="range" min=20 max=150 step=1 value=80>
+            <label for="array-speed">Speed of algorithm: </label>
+            <input id="array-speed" type="range" min=1 max=5 step=1 value=4>
+            <button id="array-generate">Generate Array</button>
+        </div>
+    </header>
+    <section>
+        <div id="array_container">
+            <!-- code will be added dynamically here -->
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/visualizations.js"></script>
+    <script src="./scripts/bubble.js"></script>
+    <script src="./scripts/insertion.js"></script>
+    <script src="./scripts/selection.js"></script>
+    <script src="./scripts/merge.js"></script>
+    <script src="./scripts/quick.js"></script>
+</body>
+</html>
