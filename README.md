@@ -3,6 +3,13 @@
 ## Overview
 The **Sorting Visualizer** is a web application that visually demonstrates various sorting algorithms. This project helps users understand how different sorting algorithms work by visualizing their process step-by-step. 
 
+## Demo
+
+
+https://github.com/divyavewall/sortingvisualizer/assets/132549573/95d3a1ef-ddcc-4e21-940f-fdc7bb4e06ee
+
+
+
 ## Features
 - **Algorithms Visualized**: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort
 - **Adjustable Array Size**: Users can change the size of the array to see how the algorithms perform with different data volumes.
